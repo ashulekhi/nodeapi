@@ -65,7 +65,7 @@ server.post("/api/upload" , AuthService.isAuthenticated, upload.single('file'), 
      });
  })
 })
-var Port  = process.env.PORT||5000 
-server.listen(Port, ()=>{
+var Port  = process.env.PORT||80 
+server.listen(80, ()=>{
     console.log("server is running on" , Port);
 })
