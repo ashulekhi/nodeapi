@@ -15,7 +15,7 @@ exports.sendMail = function(email , cb, hostname){
       authentication:'plain', // true for 465, false for other ports
       auth: {
         user: "lekhi.sahab@gmail.com", // generated ethereal user
-        pass: "nctqvtffyebjpeym" // generated ethereal password
+        pass: "bkmthqwlfbdkumiw" // generated ethereal password
       }
     });
     var token = Jwt.sign({email:email},'mysecretkey')
